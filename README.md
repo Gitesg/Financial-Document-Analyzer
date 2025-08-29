@@ -92,6 +92,7 @@ It combines:
 * Perform risk assessments
 * Validate and verify document content
 * Scalable background processing with Celery
+* db storing implmented
 
 ---
 
