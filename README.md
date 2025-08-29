@@ -1,7 +1,4 @@
-Got it ✅
-I’ll rewrite the entire **README.md** cleanly, combining your **debugging report (Fixed Bugs)** at the top with your **project documentation**, so it flows like a professional open-source project README.
 
-Here’s the polished version:
 
 ---
 
