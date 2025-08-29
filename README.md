@@ -4,7 +4,7 @@
 
 # Financial Document Analyzer
 
-## Debugging Report – Fixed Bugs
+## Debugging Report – Fixed Bugs  
 
 This project was initially buggy and incomplete. The following issues were fixed to make it production-ready:
 
