@@ -265,14 +265,14 @@ flowchart TD
     Celery --> Tasks
     Tasks --> Agents[Agents Layer]
     Agents --> Tools[Tools Layer]
-    Agents --> LLM[LLM Service (GPT-4o-mini)]
+    Agents --> LLM[LLM Service - GPT-4o-mini]
     Tools --> DB[MongoDB]
     Celery --> Redis[Redis Broker/Backend]
     Agents --> Output[Analysis & Recommendations]
     Output --> U
+
 ```
 
 ---
 
 
-Do you want me to generate this as a **README.md file** so you can download it directly?
