@@ -176,11 +176,6 @@ MIT License
 
 ---
 
-## High-Level Design
-
-
-
-```mermaid
 flowchart TD
     U[User] --> API[FastAPI API Layer]
     API --> Celery[Celery Worker]
@@ -188,11 +183,11 @@ flowchart TD
     Celery --> Tasks
     Tasks --> Agents[Agents Layer]
     Agents --> Tools[Tools Layer]
-    Agents --> LLM[LLM Service (GPT-4o-mini)]
+    Agents --> LLM["LLM Service (GPT-4o-mini)"]
     Tools --> DB[MongoDB]
     Celery --> Redis[Redis Broker/Backend]
     Agents --> Output[Analysis & Recommendations]
     Output --> U
-```
+
 
 ---
