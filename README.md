@@ -171,11 +171,11 @@ Contributions are welcome. Please open issues and submit pull requests.
 ---
 
 ## License
-
 MIT License
 
 ---
 
+```mermaid
 flowchart TD
     U[User] --> API[FastAPI API Layer]
     API --> Celery[Celery Worker]
@@ -188,6 +188,3 @@ flowchart TD
     Celery --> Redis[Redis Broker/Backend]
     Agents --> Output[Analysis & Recommendations]
     Output --> U
-
-
----
